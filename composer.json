@@ -1,0 +1,19 @@
+{
+    "name": "estudio-juridico-acuna/asesoramiento-judicial",
+    "description": "Sitio web para el Estudio Jurídico Acuña",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+} 
